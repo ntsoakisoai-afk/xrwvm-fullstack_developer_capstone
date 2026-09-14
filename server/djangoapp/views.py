@@ -134,8 +134,6 @@ def get_cars(request):
 
     count = CarMake.objects.filter().count()
 
-    print(count)
-
     if count == 0:
         initiate()
 

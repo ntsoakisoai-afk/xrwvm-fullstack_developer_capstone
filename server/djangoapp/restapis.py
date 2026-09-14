@@ -58,8 +58,6 @@ def post_review(data_dict):
             json=data_dict
         )
 
-        print(response.json())
-
         return response.json()
 
     except Exception:
