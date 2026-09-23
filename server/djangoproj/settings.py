@@ -28,8 +28,21 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "ntsoakisoai-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai"]
-CSRF_TRUSTED_ORIGINS = ["https://ntsoakisoai-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai"]
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    (
+        "ntsoakisoai-8000.theiadockernext-1-labs-prod-"
+        "theiak8s-4-tor01.proxy.cognitiveclass.ai"
+    ),
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    (
+        "https://ntsoakisoai-8000.theiadockernext-1-labs-prod-"
+        "theiak8s-4-tor01.proxy.cognitiveclass.ai"
+    ),
+]
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
@@ -93,9 +106,12 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME':
-        'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': (
+            'django.contrib.auth.password_validation.'
+            'UserAttributeSimilarityValidator'
+        ),
     },
+
     {
         'NAME':
         'django.contrib.auth.password_validation.MinimumLengthValidator',
@@ -140,7 +156,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'frontend/static'),
-	os.path.join(BASE_DIR, 'frontend/build'),
-	os.path.join(BASE_DIR, 'frontend/build/static'),
+    os.path.join(BASE_DIR, 'frontend/build'),
+    os.path.join(BASE_DIR, 'frontend/build/static'),
 ]
-
