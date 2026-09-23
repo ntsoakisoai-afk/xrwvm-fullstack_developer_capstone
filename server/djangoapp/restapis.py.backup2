@@ -33,9 +33,7 @@ def analyze_review_sentiments(text):
     try:
         encoded_text = quote(text, safe="")
         request_url = sentiment_analyzer_url + "analyze/" + encoded_text
-        session = requests.Session()
-        session.trust_env = False
-        response = session.get(request_url, timeout=30)
+        response = requests.get(request_url, timeout=30)
         return response.json()
     except Exception as err:
         print(f"Unexpected {err=}, {type(err)=}")
