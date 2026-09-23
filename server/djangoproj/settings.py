@@ -32,15 +32,15 @@ ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
     (
-        "ntsoakisoai-8000.theiadockernext-1-labs-prod-"
-        "theiak8s-4-tor01.proxy.cognitiveclass.ai"
+        "ntsoakisoai-8000.theianext-1-labs-prod-"
+        "misc-tools-us-east-0.proxy.cognitiveclass.ai"
     ),
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     (
-        "https://ntsoakisoai-8000.theiadockernext-1-labs-prod-"
-        "theiak8s-4-tor01.proxy.cognitiveclass.ai"
+        "https://ntsoakisoai-8000.theianext-1-labs-prod-"
+        "misc-tools-us-east-0.proxy.cognitiveclass.ai"
     ),
 ]
 
@@ -159,3 +159,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'frontend/build'),
     os.path.join(BASE_DIR, 'frontend/build/static'),
 ]
+print("CSRF TRUSTED ORIGINS:", CSRF_TRUSTED_ORIGINS)
+print("ALLOWED HOSTS:", ALLOWED_HOSTS)
