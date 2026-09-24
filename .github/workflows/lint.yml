@@ -54,4 +54,6 @@ jobs:
         run: |
           find ./server/database -name "*.js" -exec jshint {} +
           echo "Linted all the js files successfully"
+  workflow_dispatch:
+  workflow_dispatch:
 # CI/CD workflow
