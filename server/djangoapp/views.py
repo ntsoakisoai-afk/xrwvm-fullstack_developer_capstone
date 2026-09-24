@@ -132,7 +132,13 @@ def get_dealer_reviews(request, dealer_id):
 
         if isinstance(reviews, list):
             for review_detail in reviews:
-                if isinstance(review_detail, dict) and 'review' in review_detail:
+                if (
+
+                    isinstance(review_detail, dict)
+
+                    and 'review' in review_detail
+
+                ):
                     response = analyze_review_sentiments(
                         review_detail['review']
                     )
