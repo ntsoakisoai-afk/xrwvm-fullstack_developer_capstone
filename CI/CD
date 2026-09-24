@@ -1,0 +1,980 @@
+Lint Python Files	Set up job	﻿2026-09-24T22:16:31.1741668Z Current runner version: '2.337.0'
+Lint Python Files	Set up job	2026-09-24T22:16:31.1767931Z ##[group]Runner Image Provisioner
+Lint Python Files	Set up job	2026-09-24T22:16:31.1769020Z Hosted Compute Agent
+Lint Python Files	Set up job	2026-09-24T22:16:31.1769637Z Version: 20260828.587
+Lint Python Files	Set up job	2026-09-24T22:16:31.1770404Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+Lint Python Files	Set up job	2026-09-24T22:16:31.1771189Z Build Date: 2026-08-28T16:44:25Z
+Lint Python Files	Set up job	2026-09-24T22:16:31.1771901Z Worker ID: {079484a4-3c42-4ac4-b530-82747834c485}
+Lint Python Files	Set up job	2026-09-24T22:16:31.1772639Z Azure Region: eastus
+Lint Python Files	Set up job	2026-09-24T22:16:31.1773209Z ##[endgroup]
+Lint Python Files	Set up job	2026-09-24T22:16:31.1774812Z ##[group]Operating System
+Lint Python Files	Set up job	2026-09-24T22:16:31.1775521Z Ubuntu
+Lint Python Files	Set up job	2026-09-24T22:16:31.1776030Z 24.04.5
+Lint Python Files	Set up job	2026-09-24T22:16:31.1776617Z LTS
+Lint Python Files	Set up job	2026-09-24T22:16:31.1777136Z ##[endgroup]
+Lint Python Files	Set up job	2026-09-24T22:16:31.1777748Z ##[group]Runner Image
+Lint Python Files	Set up job	2026-09-24T22:16:31.1778469Z Image: ubuntu-24.04
+Lint Python Files	Set up job	2026-09-24T22:16:31.1779377Z Version: 20260920.314.1
+Lint Python Files	Set up job	2026-09-24T22:16:31.1780549Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+Lint Python Files	Set up job	2026-09-24T22:16:31.1782368Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+Lint Python Files	Set up job	2026-09-24T22:16:31.1783442Z ##[endgroup]
+Lint Python Files	Set up job	2026-09-24T22:16:31.1784679Z ##[group]GITHUB_TOKEN Permissions
+Lint Python Files	Set up job	2026-09-24T22:16:31.1786807Z Contents: read
+Lint Python Files	Set up job	2026-09-24T22:16:31.1787838Z Metadata: read
+Lint Python Files	Set up job	2026-09-24T22:16:31.1788462Z Packages: read
+Lint Python Files	Set up job	2026-09-24T22:16:31.1789471Z ##[endgroup]
+Lint Python Files	Set up job	2026-09-24T22:16:31.1792393Z Secret source: Actions
+Lint Python Files	Set up job	2026-09-24T22:16:31.1793471Z Cache mode: write
+Lint Python Files	Set up job	2026-09-24T22:16:31.1794939Z Prepare workflow directory
+Lint Python Files	Set up job	2026-09-24T22:16:31.2125937Z Prepare all required actions
+Lint Python Files	Set up job	2026-09-24T22:16:31.2178905Z Getting action download info
+Lint Python Files	Set up job	2026-09-24T22:16:31.4463717Z Download action repository 'actions/checkout@v3' (SHA:a37ce9120846195fa4ece8f58b268e6043cb2f26)
+Lint Python Files	Set up job	2026-09-24T22:16:31.5477685Z Download action repository 'actions/setup-python@v4' (SHA:7f4fc3e22c37d6ff65e88745f38bd3157c663f7c)
+Lint Python Files	Set up job	2026-09-24T22:16:31.7288969Z Complete job name: Lint Python Files
+Lint Python Files	Checkout Repository	﻿2026-09-24T22:16:31.8046514Z ##[group]Run actions/checkout@v3
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8047424Z with:
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8048024Z   repository: ntsoakisoai-afk/xrwvm-fullstack_developer_capstone
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8052204Z   token: ***
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8052650Z   ssh-strict: true
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8053109Z   persist-credentials: true
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8053597Z   clean: true
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8054038Z   sparse-checkout-cone-mode: true
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8054552Z   fetch-depth: 1
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8054976Z   fetch-tags: false
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8055394Z   lfs: false
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8055798Z   submodules: false
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8056242Z   set-safe-directory: true
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8056739Z   allow-unsafe-pr-checkout: false
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8057527Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8850618Z (node:2058) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8852247Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8935649Z Syncing repository: ntsoakisoai-afk/xrwvm-fullstack_developer_capstone
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8937839Z ##[group]Getting Git version info
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8939225Z Working directory is '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone'
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.8940614Z [command]/usr/bin/git version
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9040857Z git version 2.55.0
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9060977Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9074826Z Temporarily overriding HOME='/home/runner/work/_temp/cb657450-8859-44e5-a06a-eb3c630f1f71' before making global git config changes
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9077150Z Adding repository directory to the temporary git global config as a safe directory
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9079758Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9129649Z Deleting the contents of '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone'
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9133672Z ##[group]Initializing the repository
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9137420Z [command]/usr/bin/git init /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9246122Z hint: Using 'master' as the name for the initial branch. This default branch name
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9248122Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9250404Z hint: to use in all of your new repositories, which will suppress this warning,
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9252126Z hint: call:
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9252684Z hint:
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9253300Z hint: 	git config --global init.defaultBranch <name>
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9254064Z hint:
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9254773Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9255939Z hint: 'development'. The just-created branch can be renamed via this command:
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9256977Z hint:
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9257819Z hint: 	git branch -m <name>
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9258532Z hint:
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9259636Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9261449Z Initialized empty Git repository in /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone/.git/
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9264031Z [command]/usr/bin/git remote add origin https://github.com/ntsoakisoai-afk/xrwvm-fullstack_developer_capstone
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9312155Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9312952Z ##[group]Disabling automatic garbage collection
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9314643Z [command]/usr/bin/git config --local gc.auto 0
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9342740Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9343507Z ##[group]Setting up auth
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9347857Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9376892Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9746497Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9775862Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint Python Files	Checkout Repository	2026-09-24T22:16:31.9993649Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.0029194Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.0030005Z ##[group]Fetching the repository
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.0036615Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +b8973a3c73d4897946a2e1a304967a49f8e34562:refs/remotes/origin/main
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2837863Z remote: Enumerating objects: 124, done.        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2839682Z remote: Counting objects:   0% (1/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2841169Z remote: Counting objects:   1% (2/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2842565Z remote: Counting objects:   2% (3/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2843742Z remote: Counting objects:   3% (4/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2844768Z remote: Counting objects:   4% (5/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2845695Z remote: Counting objects:   5% (7/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2846949Z remote: Counting objects:   6% (8/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2848108Z remote: Counting objects:   7% (9/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2859975Z remote: Counting objects:   8% (10/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2861112Z remote: Counting objects:   9% (12/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2862140Z remote: Counting objects:  10% (13/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2863169Z remote: Counting objects:  11% (14/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2864114Z remote: Counting objects:  12% (15/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2864754Z remote: Counting objects:  13% (17/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2865766Z remote: Counting objects:  14% (18/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2866653Z remote: Counting objects:  15% (19/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2867779Z remote: Counting objects:  16% (20/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2869082Z remote: Counting objects:  17% (22/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2869760Z remote: Counting objects:  18% (23/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2870517Z remote: Counting objects:  19% (24/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2871492Z remote: Counting objects:  20% (25/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2872618Z remote: Counting objects:  21% (27/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2873724Z remote: Counting objects:  22% (28/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2874511Z remote: Counting objects:  23% (29/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2875138Z remote: Counting objects:  24% (30/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2875762Z remote: Counting objects:  25% (31/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2876375Z remote: Counting objects:  26% (33/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2877131Z remote: Counting objects:  27% (34/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2877903Z remote: Counting objects:  28% (35/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2878520Z remote: Counting objects:  29% (36/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2879429Z remote: Counting objects:  30% (38/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2880062Z remote: Counting objects:  31% (39/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2880775Z remote: Counting objects:  32% (40/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2881862Z remote: Counting objects:  33% (41/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2882577Z remote: Counting objects:  34% (43/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2883345Z remote: Counting objects:  35% (44/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2883974Z remote: Counting objects:  36% (45/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2884582Z remote: Counting objects:  37% (46/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2885227Z remote: Counting objects:  38% (48/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2886234Z remote: Counting objects:  39% (49/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2887383Z remote: Counting objects:  40% (50/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2888979Z remote: Counting objects:  41% (51/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2889820Z remote: Counting objects:  42% (53/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2890454Z remote: Counting objects:  43% (54/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2891080Z remote: Counting objects:  44% (55/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2891701Z remote: Counting objects:  45% (56/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2892316Z remote: Counting objects:  46% (58/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2892919Z remote: Counting objects:  47% (59/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2893535Z remote: Counting objects:  48% (60/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2894279Z remote: Counting objects:  49% (61/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2894885Z remote: Counting objects:  50% (62/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2895739Z remote: Counting objects:  51% (64/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2896861Z remote: Counting objects:  52% (65/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2897939Z remote: Counting objects:  53% (66/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2899388Z remote: Counting objects:  54% (67/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2900308Z remote: Counting objects:  55% (69/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2901388Z remote: Counting objects:  56% (70/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2902429Z remote: Counting objects:  57% (71/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2903439Z remote: Counting objects:  58% (72/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2905018Z remote: Counting objects:  59% (74/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2906130Z remote: Counting objects:  60% (75/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2906899Z remote: Counting objects:  61% (76/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2907507Z remote: Counting objects:  62% (77/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2908114Z remote: Counting objects:  63% (79/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2909026Z remote: Counting objects:  64% (80/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2909684Z remote: Counting objects:  65% (81/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2910308Z remote: Counting objects:  66% (82/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2910923Z remote: Counting objects:  67% (84/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2911742Z remote: Counting objects:  68% (85/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2912351Z remote: Counting objects:  69% (86/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2912959Z remote: Counting objects:  70% (87/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2913649Z remote: Counting objects:  71% (89/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2914763Z remote: Counting objects:  72% (90/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2915835Z remote: Counting objects:  73% (91/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2916928Z remote: Counting objects:  74% (92/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2917996Z remote: Counting objects:  75% (93/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2919268Z remote: Counting objects:  76% (95/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2920290Z remote: Counting objects:  77% (96/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2921302Z remote: Counting objects:  78% (97/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2922314Z remote: Counting objects:  79% (98/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2923383Z remote: Counting objects:  80% (100/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2924448Z remote: Counting objects:  81% (101/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2925475Z remote: Counting objects:  82% (102/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2926501Z remote: Counting objects:  83% (103/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2927316Z remote: Counting objects:  84% (105/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2927929Z remote: Counting objects:  85% (106/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2928529Z remote: Counting objects:  86% (107/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2929415Z remote: Counting objects:  87% (108/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2930028Z remote: Counting objects:  88% (110/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2930637Z remote: Counting objects:  89% (111/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2931249Z remote: Counting objects:  90% (112/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2931849Z remote: Counting objects:  91% (113/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2932450Z remote: Counting objects:  92% (115/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2933057Z remote: Counting objects:  93% (116/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2933860Z remote: Counting objects:  94% (117/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2934461Z remote: Counting objects:  95% (118/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2935059Z remote: Counting objects:  96% (120/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2935673Z remote: Counting objects:  97% (121/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2936292Z remote: Counting objects:  98% (122/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2936902Z remote: Counting objects:  99% (123/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2937508Z remote: Counting objects: 100% (124/124)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2938148Z remote: Counting objects: 100% (124/124), done.        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2939164Z remote: Compressing objects:   0% (1/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2939835Z remote: Compressing objects:   1% (2/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2940467Z remote: Compressing objects:   2% (3/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2941092Z remote: Compressing objects:   3% (4/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2941716Z remote: Compressing objects:   4% (5/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2942350Z remote: Compressing objects:   5% (6/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2942973Z remote: Compressing objects:   6% (7/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2943595Z remote: Compressing objects:   7% (9/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2944234Z remote: Compressing objects:   8% (10/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2944870Z remote: Compressing objects:   9% (11/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2945853Z remote: Compressing objects:  10% (12/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2946997Z remote: Compressing objects:  11% (13/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2948113Z remote: Compressing objects:  12% (14/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2949415Z remote: Compressing objects:  13% (15/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2950299Z remote: Compressing objects:  14% (17/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2950954Z remote: Compressing objects:  15% (18/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2951597Z remote: Compressing objects:  16% (19/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2952223Z remote: Compressing objects:  17% (20/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2953050Z remote: Compressing objects:  18% (21/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2953689Z remote: Compressing objects:  19% (22/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2954315Z remote: Compressing objects:  20% (23/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2955153Z remote: Compressing objects:  21% (25/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2955804Z remote: Compressing objects:  22% (26/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2956431Z remote: Compressing objects:  23% (27/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2957055Z remote: Compressing objects:  24% (28/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2957686Z remote: Compressing objects:  25% (29/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2958306Z remote: Compressing objects:  26% (30/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2959174Z remote: Compressing objects:  27% (32/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2959815Z remote: Compressing objects:  28% (33/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2960445Z remote: Compressing objects:  29% (34/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2961088Z remote: Compressing objects:  30% (35/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2961729Z remote: Compressing objects:  31% (36/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2962353Z remote: Compressing objects:  32% (37/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2962977Z remote: Compressing objects:  33% (38/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2963598Z remote: Compressing objects:  34% (40/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2964593Z remote: Compressing objects:  35% (41/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2965713Z remote: Compressing objects:  36% (42/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2966815Z remote: Compressing objects:  37% (43/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2967740Z remote: Compressing objects:  38% (44/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2968377Z remote: Compressing objects:  39% (45/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2969297Z remote: Compressing objects:  40% (46/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2970094Z remote: Compressing objects:  41% (48/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2971224Z remote: Compressing objects:  42% (49/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2972551Z remote: Compressing objects:  43% (50/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2973622Z remote: Compressing objects:  44% (51/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2974678Z remote: Compressing objects:  45% (52/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2975733Z remote: Compressing objects:  46% (53/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2976786Z remote: Compressing objects:  47% (55/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2977836Z remote: Compressing objects:  48% (56/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2979086Z remote: Compressing objects:  49% (57/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2980160Z remote: Compressing objects:  50% (58/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2981212Z remote: Compressing objects:  51% (59/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2982274Z remote: Compressing objects:  52% (60/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2983019Z remote: Compressing objects:  53% (61/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2983661Z remote: Compressing objects:  54% (63/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2984288Z remote: Compressing objects:  55% (64/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2984926Z remote: Compressing objects:  56% (65/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2985550Z remote: Compressing objects:  57% (66/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2986732Z remote: Compressing objects:  58% (67/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2987865Z remote: Compressing objects:  59% (68/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2989819Z remote: Compressing objects:  60% (69/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2991025Z remote: Compressing objects:  61% (71/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2992142Z remote: Compressing objects:  62% (72/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2992835Z remote: Compressing objects:  63% (73/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2993485Z remote: Compressing objects:  64% (74/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2994117Z remote: Compressing objects:  65% (75/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2994760Z remote: Compressing objects:  66% (76/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2995397Z remote: Compressing objects:  67% (78/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2996032Z remote: Compressing objects:  68% (79/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2996869Z remote: Compressing objects:  69% (80/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2997817Z remote: Compressing objects:  70% (81/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2998466Z remote: Compressing objects:  71% (82/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.2999371Z remote: Compressing objects:  72% (83/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3000003Z remote: Compressing objects:  73% (84/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3000635Z remote: Compressing objects:  74% (86/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3001262Z remote: Compressing objects:  75% (87/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3001880Z remote: Compressing objects:  76% (88/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3002506Z remote: Compressing objects:  77% (89/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3003135Z remote: Compressing objects:  78% (90/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3003762Z remote: Compressing objects:  79% (91/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3004387Z remote: Compressing objects:  80% (92/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3005266Z remote: Compressing objects:  81% (94/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3006454Z remote: Compressing objects:  82% (95/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3007585Z remote: Compressing objects:  83% (96/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3008901Z remote: Compressing objects:  84% (97/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3010064Z remote: Compressing objects:  85% (98/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3011195Z remote: Compressing objects:  86% (99/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3012303Z remote: Compressing objects:  87% (101/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3013388Z remote: Compressing objects:  88% (102/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3014457Z remote: Compressing objects:  89% (103/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3015531Z remote: Compressing objects:  90% (104/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3016598Z remote: Compressing objects:  91% (105/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3017668Z remote: Compressing objects:  92% (106/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3018604Z remote: Compressing objects:  93% (107/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3019503Z remote: Compressing objects:  94% (109/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3020355Z remote: Compressing objects:  95% (110/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3020992Z remote: Compressing objects:  96% (111/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3021626Z remote: Compressing objects:  97% (112/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3022571Z remote: Compressing objects:  98% (113/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3023761Z remote: Compressing objects:  99% (114/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3024877Z remote: Compressing objects: 100% (115/115)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3025898Z remote: Compressing objects: 100% (115/115), done.        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3026613Z Receiving objects:   0% (1/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3027126Z Receiving objects:   1% (2/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3027624Z Receiving objects:   2% (3/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3028120Z Receiving objects:   3% (4/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3028802Z Receiving objects:   4% (5/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3029455Z Receiving objects:   5% (7/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3029958Z Receiving objects:   6% (8/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3030470Z Receiving objects:   7% (9/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3030968Z Receiving objects:   8% (10/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3031476Z Receiving objects:   9% (12/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3031986Z Receiving objects:  10% (13/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3032492Z Receiving objects:  11% (14/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3032985Z Receiving objects:  12% (15/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3033482Z Receiving objects:  13% (17/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3034406Z Receiving objects:  14% (18/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3035242Z Receiving objects:  15% (19/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3035768Z Receiving objects:  16% (20/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3036283Z Receiving objects:  17% (22/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3036782Z Receiving objects:  18% (23/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3037273Z Receiving objects:  19% (24/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3037923Z Receiving objects:  20% (25/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3038522Z Receiving objects:  21% (27/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3039313Z Receiving objects:  22% (28/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3040021Z Receiving objects:  23% (29/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3040523Z Receiving objects:  24% (30/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3041024Z Receiving objects:  25% (31/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3041519Z Receiving objects:  26% (33/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3042021Z Receiving objects:  27% (34/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3042520Z Receiving objects:  28% (35/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3043016Z Receiving objects:  29% (36/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3043515Z Receiving objects:  30% (38/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3044302Z Receiving objects:  31% (39/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3044940Z Receiving objects:  32% (40/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3045873Z Receiving objects:  33% (41/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3118567Z Receiving objects:  34% (43/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3120182Z Receiving objects:  35% (44/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3121246Z Receiving objects:  36% (45/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3122309Z Receiving objects:  37% (46/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3123163Z Receiving objects:  38% (48/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3124179Z Receiving objects:  39% (49/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3125114Z Receiving objects:  40% (50/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3126065Z Receiving objects:  41% (51/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3126985Z Receiving objects:  42% (53/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3127868Z Receiving objects:  43% (54/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3129046Z Receiving objects:  44% (55/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3129953Z Receiving objects:  45% (56/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3130857Z Receiving objects:  46% (58/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3131758Z Receiving objects:  47% (59/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3132649Z Receiving objects:  48% (60/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3133557Z Receiving objects:  49% (61/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3134754Z Receiving objects:  50% (62/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3135696Z Receiving objects:  51% (64/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3136584Z Receiving objects:  52% (65/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3137499Z Receiving objects:  53% (66/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3138364Z Receiving objects:  54% (67/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3139493Z Receiving objects:  55% (69/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3140620Z Receiving objects:  56% (70/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3141279Z Receiving objects:  57% (71/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3141791Z Receiving objects:  58% (72/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3142291Z Receiving objects:  59% (74/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3142806Z Receiving objects:  60% (75/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3143310Z Receiving objects:  61% (76/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3143809Z Receiving objects:  62% (77/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3144305Z Receiving objects:  63% (79/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3144800Z Receiving objects:  64% (80/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3145304Z Receiving objects:  65% (81/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3145799Z Receiving objects:  66% (82/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3146296Z Receiving objects:  67% (84/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3146789Z Receiving objects:  68% (85/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3147283Z Receiving objects:  69% (86/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3147781Z Receiving objects:  70% (87/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3148284Z Receiving objects:  71% (89/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3149094Z Receiving objects:  72% (90/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3149653Z Receiving objects:  73% (91/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3150156Z Receiving objects:  74% (92/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3150656Z Receiving objects:  75% (93/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3151190Z Receiving objects:  76% (95/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3151686Z Receiving objects:  77% (96/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3152178Z Receiving objects:  78% (97/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3152672Z Receiving objects:  79% (98/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3153168Z Receiving objects:  80% (100/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3153693Z Receiving objects:  81% (101/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3154201Z Receiving objects:  82% (102/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3154702Z Receiving objects:  83% (103/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3155213Z Receiving objects:  84% (105/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3155720Z Receiving objects:  85% (106/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3156225Z Receiving objects:  86% (107/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3156728Z Receiving objects:  87% (108/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3157230Z Receiving objects:  88% (110/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3157905Z Receiving objects:  89% (111/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3160848Z Receiving objects:  90% (112/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3162631Z remote: Total 124 (delta 6), reused 96 (delta 2), pack-reused 0 (from 0)        
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3163727Z Receiving objects:  91% (113/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3164271Z Receiving objects:  92% (115/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3171146Z Receiving objects:  93% (116/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3172518Z Receiving objects:  94% (117/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3173630Z Receiving objects:  95% (118/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3174873Z Receiving objects:  96% (120/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3175978Z Receiving objects:  97% (121/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3177127Z Receiving objects:  98% (122/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3178195Z Receiving objects:  99% (123/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3179657Z Receiving objects: 100% (124/124)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3180932Z Receiving objects: 100% (124/124), 1.63 MiB | 57.70 MiB/s, done.
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3182313Z Resolving deltas:   0% (0/6)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3183396Z Resolving deltas:  16% (1/6)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3184481Z Resolving deltas:  33% (2/6)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3185558Z Resolving deltas:  50% (3/6)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3186647Z Resolving deltas:  66% (4/6)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3195484Z Resolving deltas:  83% (5/6)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3196399Z Resolving deltas: 100% (6/6)
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3196973Z Resolving deltas: 100% (6/6), done.
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3321311Z From https://github.com/ntsoakisoai-afk/xrwvm-fullstack_developer_capstone
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3323048Z  * [new ref]         b8973a3c73d4897946a2e1a304967a49f8e34562 -> origin/main
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3328363Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3329766Z ##[group]Determining the checkout info
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3331197Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3332079Z ##[group]Checking out the ref
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3335397Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3587151Z Switched to a new branch 'main'
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3592870Z branch 'main' set up to track 'origin/main'.
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3599890Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3637356Z [command]/usr/bin/git log -1 --format='%H'
+Lint Python Files	Checkout Repository	2026-09-24T22:16:32.3659702Z 'b8973a3c73d4897946a2e1a304967a49f8e34562'
+Lint Python Files	Set up Python	﻿2026-09-24T22:16:32.3927304Z ##[group]Run actions/setup-python@v4
+Lint Python Files	Set up Python	2026-09-24T22:16:32.3927898Z with:
+Lint Python Files	Set up Python	2026-09-24T22:16:32.3928524Z   python-version: 3.12
+Lint Python Files	Set up Python	2026-09-24T22:16:32.3929431Z   check-latest: false
+Lint Python Files	Set up Python	2026-09-24T22:16:32.3933194Z   token: ***
+Lint Python Files	Set up Python	2026-09-24T22:16:32.3933625Z   update-environment: true
+Lint Python Files	Set up Python	2026-09-24T22:16:32.3934115Z   allow-prereleases: false
+Lint Python Files	Set up Python	2026-09-24T22:16:32.3934579Z ##[endgroup]
+Lint Python Files	Set up Python	2026-09-24T22:16:32.5303797Z ##[group]Installed versions
+Lint Python Files	Set up Python	2026-09-24T22:16:32.5408004Z (node:2143) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint Python Files	Set up Python	2026-09-24T22:16:32.5410117Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint Python Files	Set up Python	2026-09-24T22:16:32.5411460Z Successfully set up CPython (3.12.14)
+Lint Python Files	Set up Python	2026-09-24T22:16:32.5412943Z ##[endgroup]
+Lint Python Files	Install dependencies	﻿2026-09-24T22:16:32.5625434Z ##[group]Run python -m pip install --upgrade pip
+Lint Python Files	Install dependencies	2026-09-24T22:16:32.5626294Z [36;1mpython -m pip install --upgrade pip[0m
+Lint Python Files	Install dependencies	2026-09-24T22:16:32.5626900Z [36;1mpip install flake8[0m
+Lint Python Files	Install dependencies	2026-09-24T22:16:32.5989003Z shell: /usr/bin/bash -e {0}
+Lint Python Files	Install dependencies	2026-09-24T22:16:32.5989688Z env:
+Lint Python Files	Install dependencies	2026-09-24T22:16:32.5990273Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+Lint Python Files	Install dependencies	2026-09-24T22:16:32.5991231Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+Lint Python Files	Install dependencies	2026-09-24T22:16:32.5992181Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Lint Python Files	Install dependencies	2026-09-24T22:16:32.5993030Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Lint Python Files	Install dependencies	2026-09-24T22:16:32.5993872Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Lint Python Files	Install dependencies	2026-09-24T22:16:32.5994730Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+Lint Python Files	Install dependencies	2026-09-24T22:16:32.5995375Z ##[endgroup]
+Lint Python Files	Install dependencies	2026-09-24T22:16:33.3228367Z Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages (26.2.1)
+Lint Python Files	Install dependencies	2026-09-24T22:16:33.8893751Z Collecting flake8
+Lint Python Files	Install dependencies	2026-09-24T22:16:33.9392752Z   Downloading flake8-7.4.1-py2.py3-none-any.whl.metadata (3.8 kB)
+Lint Python Files	Install dependencies	2026-09-24T22:16:33.9510170Z Collecting mccabe<0.8.0,>=0.7.0 (from flake8)
+Lint Python Files	Install dependencies	2026-09-24T22:16:33.9561084Z   Downloading mccabe-0.7.0-py2.py3-none-any.whl.metadata (5.0 kB)
+Lint Python Files	Install dependencies	2026-09-24T22:16:33.9693809Z Collecting pycodestyle<2.16.0,>=2.15.0 (from flake8)
+Lint Python Files	Install dependencies	2026-09-24T22:16:33.9736844Z   Downloading pycodestyle-2.15.0-py2.py3-none-any.whl.metadata (4.5 kB)
+Lint Python Files	Install dependencies	2026-09-24T22:16:33.9868601Z Collecting pyflakes<4.1.0,>=4.0.0 (from flake8)
+Lint Python Files	Install dependencies	2026-09-24T22:16:33.9909207Z   Downloading pyflakes-4.0.0-py2.py3-none-any.whl.metadata (3.5 kB)
+Lint Python Files	Install dependencies	2026-09-24T22:16:33.9989715Z Downloading flake8-7.4.1-py2.py3-none-any.whl (57 kB)
+Lint Python Files	Install dependencies	2026-09-24T22:16:34.0129914Z Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Lint Python Files	Install dependencies	2026-09-24T22:16:34.0190160Z Downloading pycodestyle-2.15.0-py2.py3-none-any.whl (31 kB)
+Lint Python Files	Install dependencies	2026-09-24T22:16:34.0248882Z Downloading pyflakes-4.0.0-py2.py3-none-any.whl (65 kB)
+Lint Python Files	Install dependencies	2026-09-24T22:16:34.0563591Z Installing collected packages: pyflakes, pycodestyle, mccabe, flake8
+Lint Python Files	Install dependencies	2026-09-24T22:16:34.1855264Z 
+Lint Python Files	Install dependencies	2026-09-24T22:16:34.1866696Z Successfully installed flake8-7.4.1 mccabe-0.7.0 pycodestyle-2.15.0 pyflakes-4.0.0
+Lint Python Files	Print working directory	﻿2026-09-24T22:16:34.2319831Z ##[group]Run pwd
+Lint Python Files	Print working directory	2026-09-24T22:16:34.2320209Z [36;1mpwd[0m
+Lint Python Files	Print working directory	2026-09-24T22:16:34.2386285Z shell: /usr/bin/bash -e {0}
+Lint Python Files	Print working directory	2026-09-24T22:16:34.2386603Z env:
+Lint Python Files	Print working directory	2026-09-24T22:16:34.2386945Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+Lint Python Files	Print working directory	2026-09-24T22:16:34.2387451Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+Lint Python Files	Print working directory	2026-09-24T22:16:34.2387943Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Lint Python Files	Print working directory	2026-09-24T22:16:34.2388403Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Lint Python Files	Print working directory	2026-09-24T22:16:34.2389172Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Lint Python Files	Print working directory	2026-09-24T22:16:34.2389657Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+Lint Python Files	Print working directory	2026-09-24T22:16:34.2390036Z ##[endgroup]
+Lint Python Files	Print working directory	2026-09-24T22:16:34.2475036Z /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+Lint Python Files	Run Linter	﻿2026-09-24T22:16:34.2517930Z ##[group]Run pwd
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2518295Z [36;1mpwd[0m
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2519028Z [36;1m# This command finds all Python files recursively and runs flake8 on them[0m
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2519985Z [36;1mfind . -name "*.py" -exec flake8 {} +[0m
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2520625Z [36;1mecho "Linted all the python files successfully"[0m
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2580670Z shell: /usr/bin/bash -e {0}
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2580979Z env:
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2581295Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2581780Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2582259Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2582713Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2583147Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2583598Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2583967Z ##[endgroup]
+Lint Python Files	Run Linter	2026-09-24T22:16:34.2667639Z /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+Lint Python Files	Run Linter	2026-09-24T22:16:34.6624681Z Linted all the python files successfully
+Lint Python Files	Post Set up Python	﻿2026-09-24T22:16:34.6726720Z Post job cleanup.
+Lint Python Files	Post Set up Python	2026-09-24T22:16:34.7937608Z (node:2210) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint Python Files	Post Set up Python	2026-09-24T22:16:34.7938555Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint Python Files	Post Checkout Repository	﻿2026-09-24T22:16:34.8182392Z Post job cleanup.
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.8865192Z (node:2221) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.8866688Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.8896519Z [command]/usr/bin/git version
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.8932570Z git version 2.55.0
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.8968893Z Temporarily overriding HOME='/home/runner/work/_temp/868d772e-31e1-49f7-9243-cc580e3e29d4' before making global git config changes
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.8970131Z Adding repository directory to the temporary git global config as a safe directory
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.8973313Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.9006092Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.9036049Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.9261691Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.9286733Z http.https://github.com/.extraheader
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.9296926Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Lint Python Files	Post Checkout Repository	2026-09-24T22:16:34.9327650Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint Python Files	Complete job	﻿2026-09-24T22:16:34.9676106Z Cleaning up orphan processes
+Lint Python Files	Complete job	2026-09-24T22:16:34.9979831Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v3, actions/setup-python@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Lint JavaScript Files	Set up job	﻿2026-09-24T22:16:31.9436806Z Current runner version: '2.337.0'
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9453193Z ##[group]Runner Image Provisioner
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9453773Z Hosted Compute Agent
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9454125Z Version: 20260828.587
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9454527Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9454987Z Build Date: 2026-08-28T16:44:25Z
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9455383Z Worker ID: {65c119b1-ccfd-4553-8646-6cdb4bf2f278}
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9455785Z Azure Region: westus2
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9456166Z ##[endgroup]
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9456951Z ##[group]Operating System
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9457335Z Ubuntu
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9457640Z 24.04.5
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9457932Z LTS
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9458278Z ##[endgroup]
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9458627Z ##[group]Runner Image
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9459146Z Image: ubuntu-24.04
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9459496Z Version: 20260920.314.1
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9460090Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9461124Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9461684Z ##[endgroup]
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9462377Z ##[group]GITHUB_TOKEN Permissions
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9463701Z Contents: read
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9464054Z Metadata: read
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9464423Z Packages: read
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9464795Z ##[endgroup]
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9466015Z Secret source: Actions
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9466796Z Cache mode: write
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9467227Z Prepare workflow directory
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9655457Z Prepare all required actions
+Lint JavaScript Files	Set up job	2026-09-24T22:16:31.9684919Z Getting action download info
+Lint JavaScript Files	Set up job	2026-09-24T22:16:32.3122946Z Download action repository 'actions/checkout@v3' (SHA:a37ce9120846195fa4ece8f58b268e6043cb2f26)
+Lint JavaScript Files	Set up job	2026-09-24T22:16:32.5446222Z Download action repository 'actions/setup-node@v3' (SHA:3235b876344d2a9aa001b8d1453c930bba69e610)
+Lint JavaScript Files	Set up job	2026-09-24T22:16:32.9277343Z Complete job name: Lint JavaScript Files
+Lint JavaScript Files	Checkout Repository	﻿2026-09-24T22:16:32.9711882Z ##[group]Run actions/checkout@v3
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9712352Z with:
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9712687Z   repository: ntsoakisoai-afk/xrwvm-fullstack_developer_capstone
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9714870Z   token: ***
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9715117Z   ssh-strict: true
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9715382Z   persist-credentials: true
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9715661Z   clean: true
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9715926Z   sparse-checkout-cone-mode: true
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9716229Z   fetch-depth: 1
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9716481Z   fetch-tags: false
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9716737Z   lfs: false
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9716980Z   submodules: false
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9717257Z   set-safe-directory: true
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9717554Z   allow-unsafe-pr-checkout: false
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:32.9717943Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0224599Z (node:1919) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0225860Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0281926Z Syncing repository: ntsoakisoai-afk/xrwvm-fullstack_developer_capstone
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0283042Z ##[group]Getting Git version info
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0283604Z Working directory is '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone'
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0284360Z [command]/usr/bin/git version
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0335287Z git version 2.55.0
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0346090Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0353571Z Temporarily overriding HOME='/home/runner/work/_temp/06be107a-7601-4411-89b7-9d182ea4b45f' before making global git config changes
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0354412Z Adding repository directory to the temporary git global config as a safe directory
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0355610Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0390313Z Deleting the contents of '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone'
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0392053Z ##[group]Initializing the repository
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0394363Z [command]/usr/bin/git init /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0485236Z hint: Using 'master' as the name for the initial branch. This default branch name
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0485944Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0486468Z hint: to use in all of your new repositories, which will suppress this warning,
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0486947Z hint: call:
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0487185Z hint:
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0487485Z hint: 	git config --global init.defaultBranch <name>
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0487837Z hint:
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0488209Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0489162Z hint: 'development'. The just-created branch can be renamed via this command:
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0489678Z hint:
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0489957Z hint: 	git branch -m <name>
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0490425Z hint:
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0491017Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0491950Z Initialized empty Git repository in /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone/.git/
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0494301Z [command]/usr/bin/git remote add origin https://github.com/ntsoakisoai-afk/xrwvm-fullstack_developer_capstone
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0529829Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0530291Z ##[group]Disabling automatic garbage collection
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0531597Z [command]/usr/bin/git config --local gc.auto 0
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0551947Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0552515Z ##[group]Setting up auth
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0554780Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.0574839Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.2989287Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.3008656Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.3168342Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.3195520Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.3195971Z ##[group]Fetching the repository
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:33.3200399Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +b8973a3c73d4897946a2e1a304967a49f8e34562:refs/remotes/origin/main
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1684189Z remote: Enumerating objects: 124, done.        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1684681Z remote: Counting objects:   0% (1/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1685061Z remote: Counting objects:   1% (2/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1685442Z remote: Counting objects:   2% (3/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1685844Z remote: Counting objects:   3% (4/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1686233Z remote: Counting objects:   4% (5/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1686609Z remote: Counting objects:   5% (7/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1687005Z remote: Counting objects:   6% (8/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1687414Z remote: Counting objects:   7% (9/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1687814Z remote: Counting objects:   8% (10/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1688213Z remote: Counting objects:   9% (12/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1688613Z remote: Counting objects:  10% (13/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1689168Z remote: Counting objects:  11% (14/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1689471Z remote: Counting objects:  12% (15/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1689752Z remote: Counting objects:  13% (17/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1690277Z remote: Counting objects:  14% (18/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1690537Z remote: Counting objects:  15% (19/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1690791Z remote: Counting objects:  16% (20/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1691046Z remote: Counting objects:  17% (22/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1691305Z remote: Counting objects:  18% (23/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1691570Z remote: Counting objects:  19% (24/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1691821Z remote: Counting objects:  20% (25/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1692236Z remote: Counting objects:  21% (27/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1692499Z remote: Counting objects:  22% (28/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1692792Z remote: Counting objects:  23% (29/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1693073Z remote: Counting objects:  24% (30/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1693372Z remote: Counting objects:  25% (31/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1693646Z remote: Counting objects:  26% (33/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1693921Z remote: Counting objects:  27% (34/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1694270Z remote: Counting objects:  28% (35/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1694571Z remote: Counting objects:  29% (36/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1694838Z remote: Counting objects:  30% (38/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1695111Z remote: Counting objects:  31% (39/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1695378Z remote: Counting objects:  32% (40/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1695645Z remote: Counting objects:  33% (41/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1695910Z remote: Counting objects:  34% (43/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1696177Z remote: Counting objects:  35% (44/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1696442Z remote: Counting objects:  36% (45/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1696711Z remote: Counting objects:  37% (46/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1696973Z remote: Counting objects:  38% (48/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1697240Z remote: Counting objects:  39% (49/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1697506Z remote: Counting objects:  40% (50/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1697885Z remote: Counting objects:  41% (51/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1698155Z remote: Counting objects:  42% (53/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1698422Z remote: Counting objects:  43% (54/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1698688Z remote: Counting objects:  44% (55/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1699094Z remote: Counting objects:  45% (56/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1699373Z remote: Counting objects:  46% (58/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1699639Z remote: Counting objects:  47% (59/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1699908Z remote: Counting objects:  48% (60/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1700173Z remote: Counting objects:  49% (61/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1700444Z remote: Counting objects:  50% (62/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1700711Z remote: Counting objects:  51% (64/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1700976Z remote: Counting objects:  52% (65/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1701241Z remote: Counting objects:  53% (66/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1701526Z remote: Counting objects:  54% (67/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1701792Z remote: Counting objects:  55% (69/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1702060Z remote: Counting objects:  56% (70/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1702322Z remote: Counting objects:  57% (71/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1702590Z remote: Counting objects:  58% (72/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1702858Z remote: Counting objects:  59% (74/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1703123Z remote: Counting objects:  60% (75/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1703386Z remote: Counting objects:  61% (76/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1703649Z remote: Counting objects:  62% (77/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1703914Z remote: Counting objects:  63% (79/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1704178Z remote: Counting objects:  64% (80/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1704463Z remote: Counting objects:  65% (81/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1704727Z remote: Counting objects:  66% (82/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1704988Z remote: Counting objects:  67% (84/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1705380Z remote: Counting objects:  68% (85/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1705637Z remote: Counting objects:  69% (86/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1705897Z remote: Counting objects:  70% (87/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1706159Z remote: Counting objects:  71% (89/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1706420Z remote: Counting objects:  72% (90/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1706683Z remote: Counting objects:  73% (91/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1706945Z remote: Counting objects:  74% (92/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1707400Z remote: Counting objects:  75% (93/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1707758Z remote: Counting objects:  76% (95/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1708156Z remote: Counting objects:  77% (96/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1708419Z remote: Counting objects:  78% (97/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1708684Z remote: Counting objects:  79% (98/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1709026Z remote: Counting objects:  80% (100/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1709305Z remote: Counting objects:  81% (101/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1709569Z remote: Counting objects:  82% (102/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1709831Z remote: Counting objects:  83% (103/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1710095Z remote: Counting objects:  84% (105/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1710360Z remote: Counting objects:  85% (106/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1710638Z remote: Counting objects:  86% (107/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1710909Z remote: Counting objects:  87% (108/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1711181Z remote: Counting objects:  88% (110/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1711459Z remote: Counting objects:  89% (111/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1711733Z remote: Counting objects:  90% (112/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1712006Z remote: Counting objects:  91% (113/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1712305Z remote: Counting objects:  92% (115/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1712580Z remote: Counting objects:  93% (116/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1712956Z remote: Counting objects:  94% (117/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1713231Z remote: Counting objects:  95% (118/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1713503Z remote: Counting objects:  96% (120/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1713780Z remote: Counting objects:  97% (121/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1714055Z remote: Counting objects:  98% (122/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1714332Z remote: Counting objects:  99% (123/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1714608Z remote: Counting objects: 100% (124/124)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1714900Z remote: Counting objects: 100% (124/124), done.        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1715201Z remote: Compressing objects:   0% (1/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1715488Z remote: Compressing objects:   1% (2/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1715777Z remote: Compressing objects:   2% (3/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1716061Z remote: Compressing objects:   3% (4/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1716345Z remote: Compressing objects:   4% (5/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1716637Z remote: Compressing objects:   5% (6/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1716916Z remote: Compressing objects:   6% (7/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1717197Z remote: Compressing objects:   7% (9/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1717485Z remote: Compressing objects:   8% (10/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1717771Z remote: Compressing objects:   9% (11/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1718055Z remote: Compressing objects:  10% (12/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1718342Z remote: Compressing objects:  11% (13/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1718625Z remote: Compressing objects:  12% (14/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1718909Z remote: Compressing objects:  13% (15/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1719263Z remote: Compressing objects:  14% (17/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1719546Z remote: Compressing objects:  15% (18/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1719825Z remote: Compressing objects:  16% (19/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1720110Z remote: Compressing objects:  17% (20/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1720489Z remote: Compressing objects:  18% (21/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1720772Z remote: Compressing objects:  19% (22/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1721054Z remote: Compressing objects:  20% (23/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1721335Z remote: Compressing objects:  21% (25/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1721618Z remote: Compressing objects:  22% (26/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1721900Z remote: Compressing objects:  23% (27/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1722185Z remote: Compressing objects:  24% (28/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1722465Z remote: Compressing objects:  25% (29/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1722750Z remote: Compressing objects:  26% (30/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1723034Z remote: Compressing objects:  27% (32/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1723316Z remote: Compressing objects:  28% (33/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1723598Z remote: Compressing objects:  29% (34/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1723876Z remote: Compressing objects:  30% (35/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1724165Z remote: Compressing objects:  31% (36/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1724447Z remote: Compressing objects:  32% (37/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1724725Z remote: Compressing objects:  33% (38/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1725006Z remote: Compressing objects:  34% (40/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1725286Z remote: Compressing objects:  35% (41/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1725569Z remote: Compressing objects:  36% (42/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1725847Z remote: Compressing objects:  37% (43/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1726127Z remote: Compressing objects:  38% (44/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1726409Z remote: Compressing objects:  39% (45/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1726689Z remote: Compressing objects:  40% (46/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1726969Z remote: Compressing objects:  41% (48/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1727246Z remote: Compressing objects:  42% (49/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1727621Z remote: Compressing objects:  43% (50/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1727899Z remote: Compressing objects:  44% (51/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1728180Z remote: Compressing objects:  45% (52/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1728458Z remote: Compressing objects:  46% (53/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1728735Z remote: Compressing objects:  47% (55/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1729182Z remote: Compressing objects:  48% (56/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1729461Z remote: Compressing objects:  49% (57/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1729741Z remote: Compressing objects:  50% (58/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1730022Z remote: Compressing objects:  51% (59/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1730303Z remote: Compressing objects:  52% (60/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1730583Z remote: Compressing objects:  53% (61/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1730864Z remote: Compressing objects:  54% (63/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1731141Z remote: Compressing objects:  55% (64/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1731431Z remote: Compressing objects:  56% (65/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1731709Z remote: Compressing objects:  57% (66/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1731988Z remote: Compressing objects:  58% (67/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1732263Z remote: Compressing objects:  59% (68/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1732542Z remote: Compressing objects:  60% (69/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1732826Z remote: Compressing objects:  61% (71/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1733128Z remote: Compressing objects:  62% (72/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1733423Z remote: Compressing objects:  63% (73/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1733714Z remote: Compressing objects:  64% (74/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1734014Z remote: Compressing objects:  65% (75/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1734317Z remote: Compressing objects:  66% (76/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1734620Z remote: Compressing objects:  67% (78/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1734924Z remote: Compressing objects:  68% (79/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1735336Z remote: Compressing objects:  69% (80/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1735639Z remote: Compressing objects:  70% (81/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1735946Z remote: Compressing objects:  71% (82/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1736252Z remote: Compressing objects:  72% (83/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1736556Z remote: Compressing objects:  73% (84/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1736857Z remote: Compressing objects:  74% (86/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1737160Z remote: Compressing objects:  75% (87/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1737463Z remote: Compressing objects:  76% (88/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1737761Z remote: Compressing objects:  77% (89/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1738060Z remote: Compressing objects:  78% (90/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1738355Z remote: Compressing objects:  79% (91/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1738650Z remote: Compressing objects:  80% (92/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1739069Z remote: Compressing objects:  81% (94/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1739395Z remote: Compressing objects:  82% (95/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1739696Z remote: Compressing objects:  83% (96/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1739996Z remote: Compressing objects:  84% (97/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1740294Z remote: Compressing objects:  85% (98/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1740596Z remote: Compressing objects:  86% (99/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1740900Z remote: Compressing objects:  87% (101/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1741205Z remote: Compressing objects:  88% (102/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1741512Z remote: Compressing objects:  89% (103/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1741819Z remote: Compressing objects:  90% (104/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1742127Z remote: Compressing objects:  91% (105/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1742430Z remote: Compressing objects:  92% (106/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1742735Z remote: Compressing objects:  93% (107/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1743037Z remote: Compressing objects:  94% (109/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1743439Z remote: Compressing objects:  95% (110/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1743742Z remote: Compressing objects:  96% (111/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1744046Z remote: Compressing objects:  97% (112/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1744348Z remote: Compressing objects:  98% (113/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1744650Z remote: Compressing objects:  99% (114/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1744951Z remote: Compressing objects: 100% (115/115)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1745270Z remote: Compressing objects: 100% (115/115), done.        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1873865Z Receiving objects:   0% (1/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1874247Z Receiving objects:   1% (2/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1874596Z Receiving objects:   2% (3/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1874948Z Receiving objects:   3% (4/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1875306Z Receiving objects:   4% (5/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1875696Z Receiving objects:   5% (7/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1876553Z Receiving objects:   6% (8/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1876941Z Receiving objects:   7% (9/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1877304Z Receiving objects:   8% (10/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1877664Z Receiving objects:   9% (12/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1878033Z Receiving objects:  10% (13/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1878372Z Receiving objects:  11% (14/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1878755Z Receiving objects:  12% (15/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1879242Z Receiving objects:  13% (17/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1879611Z Receiving objects:  14% (18/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1879978Z Receiving objects:  15% (19/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1880273Z Receiving objects:  16% (20/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1880537Z Receiving objects:  17% (22/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1880791Z Receiving objects:  18% (23/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1881123Z Receiving objects:  19% (24/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1881495Z Receiving objects:  20% (25/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1881870Z Receiving objects:  21% (27/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1882237Z Receiving objects:  22% (28/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1882758Z Receiving objects:  23% (29/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1883011Z Receiving objects:  24% (30/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1883271Z Receiving objects:  25% (31/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1883523Z Receiving objects:  26% (33/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1883774Z Receiving objects:  27% (34/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1884029Z Receiving objects:  28% (35/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1884283Z Receiving objects:  29% (36/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1884537Z Receiving objects:  30% (38/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1884788Z Receiving objects:  31% (39/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1885040Z Receiving objects:  32% (40/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1885292Z Receiving objects:  33% (41/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1886154Z Receiving objects:  34% (43/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1886524Z Receiving objects:  35% (44/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1886900Z Receiving objects:  36% (45/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1887273Z Receiving objects:  37% (46/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1887643Z Receiving objects:  38% (48/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1888013Z Receiving objects:  39% (49/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1888394Z Receiving objects:  40% (50/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1888769Z Receiving objects:  41% (51/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1889243Z Receiving objects:  42% (53/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1889614Z Receiving objects:  43% (54/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1889981Z Receiving objects:  44% (55/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1890347Z Receiving objects:  45% (56/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1890716Z Receiving objects:  46% (58/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1891081Z Receiving objects:  47% (59/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1891444Z Receiving objects:  48% (60/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.1891698Z Receiving objects:  49% (61/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2006505Z Receiving objects:  50% (62/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2006906Z Receiving objects:  51% (64/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2059397Z Receiving objects:  52% (65/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2059719Z Receiving objects:  53% (66/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2060016Z Receiving objects:  54% (67/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2060281Z Receiving objects:  55% (69/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2060699Z Receiving objects:  56% (70/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2060957Z Receiving objects:  57% (71/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2061215Z Receiving objects:  58% (72/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2061470Z Receiving objects:  59% (74/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2061721Z Receiving objects:  60% (75/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2061972Z Receiving objects:  61% (76/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2062224Z Receiving objects:  62% (77/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2062475Z Receiving objects:  63% (79/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2062730Z Receiving objects:  64% (80/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2062979Z Receiving objects:  65% (81/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2063231Z Receiving objects:  66% (82/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2063482Z Receiving objects:  67% (84/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2063738Z Receiving objects:  68% (85/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2063990Z Receiving objects:  69% (86/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2064242Z Receiving objects:  70% (87/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2064496Z Receiving objects:  71% (89/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2064754Z Receiving objects:  72% (90/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2065012Z Receiving objects:  73% (91/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2086192Z Receiving objects:  74% (92/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2152139Z Receiving objects:  75% (93/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2173841Z Receiving objects:  76% (95/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2231724Z Receiving objects:  77% (96/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2246943Z Receiving objects:  78% (97/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2311865Z Receiving objects:  79% (98/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2313775Z Receiving objects:  80% (100/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2314135Z Receiving objects:  81% (101/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2314393Z Receiving objects:  82% (102/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2320465Z Receiving objects:  83% (103/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2321244Z Receiving objects:  84% (105/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2328456Z Receiving objects:  85% (106/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2328724Z Receiving objects:  86% (107/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2331998Z Receiving objects:  87% (108/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2337038Z Receiving objects:  88% (110/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2394733Z Receiving objects:  89% (111/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2405272Z Receiving objects:  90% (112/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2405944Z remote: Total 124 (delta 6), reused 96 (delta 2), pack-reused 0 (from 0)        
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2409543Z Receiving objects:  91% (113/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2409932Z Receiving objects:  92% (115/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2410310Z Receiving objects:  93% (116/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2410724Z Receiving objects:  94% (117/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2411137Z Receiving objects:  95% (118/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2411535Z Receiving objects:  96% (120/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2411926Z Receiving objects:  97% (121/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2412316Z Receiving objects:  98% (122/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2412704Z Receiving objects:  99% (123/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2413113Z Receiving objects: 100% (124/124)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2413594Z Receiving objects: 100% (124/124), 1.63 MiB | 23.24 MiB/s, done.
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2416676Z Resolving deltas:   0% (0/6)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2417919Z Resolving deltas:  16% (1/6)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2418295Z Resolving deltas:  33% (2/6)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2418676Z Resolving deltas:  50% (3/6)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2419153Z Resolving deltas:  66% (4/6)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2433238Z Resolving deltas:  83% (5/6)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2433774Z Resolving deltas: 100% (6/6)
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.2434163Z Resolving deltas: 100% (6/6), done.
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.5311214Z From https://github.com/ntsoakisoai-afk/xrwvm-fullstack_developer_capstone
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.5311883Z  * [new ref]         b8973a3c73d4897946a2e1a304967a49f8e34562 -> origin/main
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.5316364Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.5316767Z ##[group]Determining the checkout info
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.5318220Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.5318594Z ##[group]Checking out the ref
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.5321209Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.5511166Z Switched to a new branch 'main'
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.5515789Z branch 'main' set up to track 'origin/main'.
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.5520006Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.5547901Z [command]/usr/bin/git log -1 --format='%H'
+Lint JavaScript Files	Checkout Repository	2026-09-24T22:16:34.5563948Z 'b8973a3c73d4897946a2e1a304967a49f8e34562'
+Lint JavaScript Files	Install Node.js	﻿2026-09-24T22:16:34.5753071Z ##[group]Run actions/setup-node@v3
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:34.5753334Z with:
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:34.5753538Z   node-version: 20
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:34.5753747Z   always-auth: false
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:34.5753966Z   check-latest: false
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:34.5755487Z   token: ***
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:34.5755695Z ##[endgroup]
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:34.7004311Z Attempting to download 20...
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:34.7073102Z (node:2004) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:34.7073666Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:35.3326698Z Acquiring 20.20.2 - x64 from https://github.com/actions/node-versions/releases/download/20.20.2-23521894959/node-20.20.2-linux-x64.tar.gz
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:35.7229800Z Extracting ...
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:35.7306238Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword -C /home/runner/work/_temp/0d4d9dfd-64bb-4af4-b3c0-e73dbeba7cc4 -f /home/runner/work/_temp/9f969ac2-680f-4abc-a2db-b5e617004e58
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:36.4562922Z Adding to the cache ...
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:39.1010837Z ##[group]Environment details
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:39.2379957Z node: v20.20.2
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:39.2380254Z npm: 10.8.2
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:39.2380421Z yarn: 1.22.22
+Lint JavaScript Files	Install Node.js	2026-09-24T22:16:39.2380931Z ##[endgroup]
+Lint JavaScript Files	Install JSHint	﻿2026-09-24T22:16:39.2532898Z ##[group]Run npm install jshint --global
+Lint JavaScript Files	Install JSHint	2026-09-24T22:16:39.2533125Z [36;1mnpm install jshint --global[0m
+Lint JavaScript Files	Install JSHint	2026-09-24T22:16:39.2905029Z shell: /usr/bin/bash -e {0}
+Lint JavaScript Files	Install JSHint	2026-09-24T22:16:39.2905211Z ##[endgroup]
+Lint JavaScript Files	Install JSHint	2026-09-24T22:16:40.2704679Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+Lint JavaScript Files	Install JSHint	2026-09-24T22:16:40.3166418Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Lint JavaScript Files	Install JSHint	2026-09-24T22:16:40.4552009Z 
+Lint JavaScript Files	Install JSHint	2026-09-24T22:16:40.4552623Z added 31 packages in 1s
+Lint JavaScript Files	Install JSHint	2026-09-24T22:16:40.4552781Z 
+Lint JavaScript Files	Install JSHint	2026-09-24T22:16:40.4552930Z 3 packages are looking for funding
+Lint JavaScript Files	Install JSHint	2026-09-24T22:16:40.4553107Z   run `npm fund` for details
+Lint JavaScript Files	Run Linter	﻿2026-09-24T22:16:40.4653791Z ##[group]Run # This command finds all JavaScript files recursively and runs JSHint on them
+Lint JavaScript Files	Run Linter	2026-09-24T22:16:40.4654198Z [36;1m# This command finds all JavaScript files recursively and runs JSHint on them[0m
+Lint JavaScript Files	Run Linter	2026-09-24T22:16:40.4654472Z [36;1mfind ./server/database -name "*.js" -exec jshint {} +[0m
+Lint JavaScript Files	Run Linter	2026-09-24T22:16:40.4654684Z [36;1mecho "Linted all the js files successfully"[0m
+Lint JavaScript Files	Run Linter	2026-09-24T22:16:40.4711521Z shell: /usr/bin/bash -e {0}
+Lint JavaScript Files	Run Linter	2026-09-24T22:16:40.4711673Z ##[endgroup]
+Lint JavaScript Files	Run Linter	2026-09-24T22:16:40.5536902Z Linted all the js files successfully
+Lint JavaScript Files	Post Install Node.js	﻿2026-09-24T22:16:40.5600475Z Post job cleanup.
+Lint JavaScript Files	Post Install Node.js	2026-09-24T22:16:40.6387402Z (node:2062) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint JavaScript Files	Post Install Node.js	2026-09-24T22:16:40.6388249Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint JavaScript Files	Post Checkout Repository	﻿2026-09-24T22:16:40.6549120Z Post job cleanup.
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7026261Z (node:2070) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7027069Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7042379Z [command]/usr/bin/git version
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7068508Z git version 2.55.0
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7090234Z Temporarily overriding HOME='/home/runner/work/_temp/71cdffae-559d-4ba4-bb0f-a17d7a72268d' before making global git config changes
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7090938Z Adding repository directory to the temporary git global config as a safe directory
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7092929Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7118443Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7141280Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7311069Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7328770Z http.https://github.com/.extraheader
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7334986Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Lint JavaScript Files	Post Checkout Repository	2026-09-24T22:16:40.7359150Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint JavaScript Files	Complete job	﻿2026-09-24T22:16:40.7622022Z Cleaning up orphan processes
+Lint JavaScript Files	Complete job	2026-09-24T22:16:40.7800860Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v3, actions/setup-node@v3. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
