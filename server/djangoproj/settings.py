@@ -31,10 +31,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    (
-        "ntsoakisoai-8000.theianext-1-labs-prod-"
-        "misc-tools-us-east-0.proxy.cognitiveclass.ai"
-    ),
+    "513b6923-us-east.lb.appdomain.cloud",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
